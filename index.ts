@@ -117,15 +117,3 @@ setTimeout(
   },
   1000
 )
-
-// async function doNothing(): Promise<void> {
-//   console.log("Doing nothing")
-//   return
-// }
-
-// setTimeout(
-//   async () => { 
-//     await doNothing()
-//   },
-//   1
-// )
