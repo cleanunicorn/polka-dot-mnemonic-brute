@@ -1,0 +1,38 @@
+{
+  "name": "polka-dot-mnemonic-brute",
+  "version": "1.0.0",
+  "description": "Bruteforce polkadot-mnemonics",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "brute": "npm run build ; node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleanunicorn/polka-dot-mnemonic-brute.git"
+  },
+  "keywords": [
+    "polkadot",
+    "crypto",
+    "security",
+    "blockchain",
+    "bruteforce"
+  ],
+  "author": "Daniel Luca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleanunicorn/polka-dot-mnemonic-brute/issues"
+  },
+  "homepage": "https://github.com/cleanunicorn/polka-dot-mnemonic-brute#readme",
+  "dependencies": {
+    "@polkadot/keyring": "^3.0.1",
+    "@polkadot/util": "^3.0.1",
+    "@polkadot/util-crypto": "^3.0.1",
+    "@polkadot/wasm-crypto": "^1.2.1",
+    "axios": "^0.19.2",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
