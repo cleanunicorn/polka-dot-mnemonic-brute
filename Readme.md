@@ -26,6 +26,6 @@ For example:
 $ npm run brute -- --mnemonic="alpha XXX achieve iron alone lava high quick stairs talk vocal any"
 ```
 
-In this example the word in the second position will be bruteforced. A request to the Polkadot blockchain explorer will be done to validate the address generated exists.
+In this example the word in the second position will be bruteforced. A request to the Polkadot blockchain explorer will be done to validate the generated address exists.
 
 Good luck!
