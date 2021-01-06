@@ -29,7 +29,7 @@
     "@polkadot/util": "^3.0.1",
     "@polkadot/util-crypto": "^3.0.1",
     "@polkadot/wasm-crypto": "^1.2.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "yargs": "^15.4.1"
   },
   "devDependencies": {
